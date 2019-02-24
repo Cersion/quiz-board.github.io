@@ -4,6 +4,8 @@ var add = function(number1, number2 ,number3 ,number4 ,number5 ,number6 ,number7
 };
 
 
+
+
 // User interface (or front-end) logic:
 $(document).ready(function() {
   $("form").submit(function(event) {
@@ -20,5 +22,13 @@ $(document).ready(function() {
     var number10 = parseInt($("input:radio[name=answer10]:checked").val());
     var result = add(number1, number2,number3 ,number4 ,number5 ,number6 ,number7 ,number8 ,number9 ,number10);
     $("#output").text(result);
+
+    if (result>24){
+      $("#output2").text("Excellent")
+    } else if (result>15){
+      $("#output2").text("Fair")
+    } else{
+      $("#output2").text("Poor, Retake test")
+    }
   });
 });
