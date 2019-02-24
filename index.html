@@ -13,29 +13,32 @@
         <h1>QUIZ BOARD</h1>
         <h2>OUT OF:30</h2>
         <p>(This quiz consists of 10 questions. Kindly answer all.)</p>
+        <p>After you submit your answers, your score will appear here:</p>
+        <div id="output">0
+        </div>
       </div>
-      <form>
+      <form id=quiz>
         <div class="well">
           <ol>
             <li>
               <label for="question1">What does HTML stand for?</label>
-              <div class="radio">
+              <div class="radio" id="num1">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer1" value="true">
+                      <input type="radio" name="answer1" value="3">
                       Hypertext Markup Language
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer1" value="false">
+                      <input type="radio" name="answer1" value="0">
                       High Tech Management Learning
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer1" value="false">
+                      <input type="radio" name="answer1" value="0">
                       Hyper Technoloical Managing List
                     </label>
                   </li>
@@ -44,23 +47,23 @@
             </li>
             <li>
               <label for="question2">How does one denote a class?</label>
-              <div class="radio">
+              <div class="radio" id="num2">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer2" value="false">
+                      <input type="radio" name="answer2" value="0">
                       #
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer2" value="true">
+                     <input type="radio" name="answer2" value="3">
                      .
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer2" value="false">
+                      <input type="radio" name="answer2" value="0">
                       @
                     </label>
                   </li>
@@ -69,23 +72,23 @@
               </li>
             <li>
               <label for="question3">How does one denote an id?</label>
-              <div class="radio">
+              <div class="radio" id="num3">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer3" value="true">
+                      <input type="radio" name="answer3" value="3">
                       #
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer3" value="false">
+                     <input type="radio" name="answer3" value="0">
                      .
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer3" value="false">
+                      <input type="radio" name="answer3" value="0">
                       @
                     </label>
                   </li>
@@ -94,23 +97,23 @@
               </li>
             <li>
               <label for="question4">what does DOM stand for?</label>
-              <div class="radio">
+              <div class="radio" id="num4">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer4" value="false ">
+                      <input type="radio" name="answer4" value="0">
                       Defined Object Model
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer4" value="true">
+                     <input type="radio" name="answer4" value="3">
                      Document Object Model
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer4" value="false">
+                      <input type="radio" name="answer4" value="0">
                       Dominant Object Model
                     </label>
                   </li>
@@ -119,23 +122,23 @@
               </li>
             <li>
               <label for="question5">What is the other name for javascript?</label>
-              <div class="radio">
+              <div class="radio" id="num5">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer5" value="true">
+                      <input type="radio" name="answer5" value="3">
                        ECMAScript
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer5" value="false">
+                     <input type="radio" name="answer5" value="0">
                      java
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer5" value="false">
+                      <input type="radio" name="answer5" value="0">
                       python
                     </label>
                   </li>
@@ -144,23 +147,23 @@
             </li>
             <li>
               <label for="question6">How does one link html to a css file?</label>
-              <div class="radio">
+              <div class="radio" id="num6">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer6" value="false">
+                      <input type="radio" name="answer6" value="0">
                       script src...
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer6" value="false">
+                     <input type="radio" name="answer6" value="0">
                      img src...
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer6" value="true">
+                      <input type="radio" name="answer6" value="3">
                       link href...
                     </label>
                   </li>
@@ -169,23 +172,23 @@
             </li>
             <li>
             <label for="question7">What does one do to stop the default action of an element from happening</label>
-              <div class="radio">
+              <div class="radio" id="num7">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer7" value="true" >
+                      <input type="radio" name="answer7" value="3" >
                       event.preventDefault()
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer7" value="false">
+                     <input type="radio" name="answer7" value="0">
                      .click()
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer7" value="false">
+                      <input type="radio" name="answer7" value="0">
                       .ready()
                     </label>
                   </li>
@@ -194,23 +197,23 @@
             </li>
             <li>
               <label for="question8">What does $(document).ready() do?</label>
-              <div class="radio">
+              <div class="radio" id="num8">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer8" value="true">
+                      <input type="radio" name="answer8" value="3">
                       To make a function available after the document is loaded.
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer8" value="false">
+                     <input type="radio" name="answer8" value="0">
                      It attaches a function to run when a click event occurs.
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer3" value="false">
+                      <input type="radio" name="answer3" value="0">
                       It allows to initiate form sending from JavaScript.
                     </label>
                   </li>
@@ -219,23 +222,23 @@
             </li>
             <li>
               <label for="question9">Why do we use parseInt?</label>
-              <div class="radio">
+              <div class="radio" id="num9">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer9" value="false" >
+                      <input type="radio" name="answer9" value="0" >
                       To convert numbers to words
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer9" value="false">
+                     <input type="radio" name="answer9" value="0">
                      To convert words to strings
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer9" value="true">
+                      <input type="radio" name="answer9" value="3">
                       To convert strings to numbers
                     </label>
                   </li>
@@ -244,23 +247,23 @@
             </li>
             <li>
               <label for="question10">Why do we use <em>var?</em></label>
-              <div class="radio">
+              <div class="radio" id="num10">
                 <ul>
                   <li>
                     <label>
-                      <input type="radio" name="answer10" value="false">
+                      <input type="radio" name="answer10" value="0">
                       To make the scope local
                     </label>
                   </li>
                   <li>
                     <label>
-                     <input type="radio" name="answer10" value="true">
+                     <input type="radio" name="answer10" value="3">
                      To make the scope global
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input type="radio" name="answer3" value="false">
+                      <input type="radio" name="answer3" value="0">
                       To make the scope international
                     </label>
                   </li>
