@@ -1,8 +1,12 @@
 .score{
   text-decoration: underline;
-  font-size: 25px
+  font-size: 25px;
+  background-color: #8EC0BE
 
 }
 body{
   background-color: #8EC0BE
+}
+h2{
+  text-decoration: underline;
 }
