@@ -27,8 +27,10 @@ $(document).ready(function() {
       $("#output2").text("Excellent")
     } else if (result>15){
       $("#output2").text("Fair")
-    } else{
+    } else if (result> 0){
       $("#output2").text("Poor, Retake test")
+    } else{
+      $("#output2").text("complete all questions")
     }
   });
 });
