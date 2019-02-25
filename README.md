@@ -8,7 +8,7 @@
 * A web browser
 * This link:https://nicolewakio.github.io/quiz-board.github.io/
 ## Known Bugs
-{Once the page is refreshed the score is lost. No score is shown if not all questions were answered.}
+{Once the page is refreshed the score is lost. No score is shown if not all questions were answered. If one scores a zero the page assumes that they have not completed answering all questions.}
 ## Technologies Used
 {For this particular project CSS, JS and html was used.}
 ## Support and contact details
