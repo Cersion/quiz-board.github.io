@@ -4,7 +4,7 @@
 ## Description
 {The web page consists of 10 questions.Each correct answer is worth three points hence adds up to a total of thirty. After selecting an choice for each question the submit button is clicked so as to calculate the results. The results are shown at the top of the page followed by a comment on the score:excellent for above 80% ,fair for 50%-79% and poor, retake test for below 50%. To retake the quiz simply refresh the page}
 ## Setup/Installation Requirementsfina
-* A running network connection to the internet  This link
+* A running network connection to the internet
 * A web browser
 * This link:https://nicolewakio.github.io/quiz-board.github.io/
 ## Known Bugs
